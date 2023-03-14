@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    background-color: burlywood;
+    font-family: 'Kalam', cursive;
+}
+
+.chatCon {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    max-width: 37.5rem;
+    box-shadow: 0 1.25rem 1.8rem rgba();
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+
+}
+
+#questionBox {
+    width: 80%;
+    border-bottom: 1px solid burlywood;
+    font-size: 1.2rem;
+    padding: 0 1.2rem;
+    outline: none;
+    letter-spacing: .1em;
+}
+
+.search  {
+    cursor: pointer;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom, burlywood, white, burlywood);
+    color: #000;
+    width: 20%;
+    margin-top: 1rem;
+    padding: 0.8rem 0.10rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+#response {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
